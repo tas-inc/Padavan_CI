@@ -7,32 +7,9 @@ on:
         type: choice
         description: 'target to compile'
         options:
-        - ZTE-E8820S
-        - MSG1500
-        - BELL-A040WQ
-        - B70
-        - K2P
-        - R2100
-        - RM2100
-        - K2P-USB
-        - CR660x
-        - JCG-Q20
-        - JCG-AC860M
-        - JCG-AC876M
-        - JCG-Y2
-        - DIR-878
-        - DIR-882
-        - MR2600
-        - MI-R3P
         - MI-R3G
         - MI-R3G-PB
-        - MI-4
-        - RT-AC85P
-        - WR1200JS
-        - NEWIFI
-        - XY-C1
-        - GHL
-        default: ZTE-E8820S
+        default: MI-R3G
       branch:
         type: choice
         description: 'branch to compile'
